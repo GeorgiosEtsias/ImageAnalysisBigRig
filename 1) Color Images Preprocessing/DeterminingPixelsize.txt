@@ -1,0 +1,12 @@
+The orientation of Cal. Image 1 to the camera is not perfect.Upper part more to the right
+
+Determining big rig pixelsize from analysising the calibration images:
+
+Derived from calibration image 1 -initial camera possition
+left edge
+pixel info x =149 (or 158 upper left edge dif: 9 pixels)
+
+right edge
+pixel info x = 5460 (or 5474 upper right edge dif 14 pixles)
+
+pixelsize (x)= 1/(5460-149)=1/5311= 0.000188288458  reliable alternatively (1/5316= 0,000188111 the same)

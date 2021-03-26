@@ -1,0 +1,12 @@
+ColorImagePreprocessing
+-1- reads all color images from a single 'ColorImages' file
+-2- Creates a greyscale scale image for each RGB one, and use it to
+calculate the lower right corner of the sndbox with spatoriginColor
+function
+-3- Incorporates option for median filtering of colored image keeping 
+the original as well
+-4- Spatial Syncronisation is achieved for the greyscale and RGB ima-
+ges alike.
+-5- final result is array structure with 5 versions of each image
+RGB/median filtered RGB/R/G/B/greyscale
+-6- Processed images can be plotted
